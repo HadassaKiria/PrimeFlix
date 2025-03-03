@@ -1,0 +1,56 @@
+.movie-details{
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+}
+
+.movie-details h1{
+    margin: 14px;
+}
+
+.movie-details img{
+    width: 800px;
+    max-width: 100%;
+    border-radius: 8px;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.movie-details h2{
+    margin-top: 14px;
+}
+
+.movie-details span{
+    margin: 8px 0;
+}
+
+.button-area button{
+    margin-top: 14px;
+    margin-right: 12px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button-area button:hover{
+    background-color: brown;
+    color: #FFF;
+}
+
+.button-area a:hover{
+    color: #FFF;
+}
+
+.button-area a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
